@@ -1,0 +1,7 @@
+
+
+Network congestion is one primary cause of performance degradation and performance variability for time sensitive applications like videos. As such, congestion control (CC) is integral to networks operations and is required to control the number of packets entering the network. This is required to ensure stable network operations, achieve fairness in resource utilization and minimize packet loss. 
+
+
+
+Despite the advancements made in compression technologies, the compression fundamentals barely changed at all. What has changed is that new codecs are equipped with added tools and complexity. Modern video streaming services are codec-agnostic shifting the focus from codecs to how to enable the codec do a better job.

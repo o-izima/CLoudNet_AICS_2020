@@ -1,0 +1,5 @@
+https://ourcodingclub.github.io/tutorials/pandas-time-series/#periodicity
+
+5. Identifying periodicity and correlation
+
+This produces an autocorrelation plot: the correlation of a time series with itself at a range of lag times. We have applied it to the downsampled yearly time series which makes the calculation a lot quicker. Since the cadence of the time series is one year, the “Lag” axis is measured in years. The first peak (after a lag of 0) is around 11 years, meaning that the series correlates well with itself at a lag time of 11 years.

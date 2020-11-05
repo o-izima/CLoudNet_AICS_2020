@@ -1,0 +1,43 @@
+lc_train['period'] = lc_train['n1'] - lc_train['n0']
+mc_train['period'] = mc_train['n1'] - mc_train['n0']
+hc_train['period'] = hc_train['n1'] - hc_train['n0']
+
+lc_train.rename(columns={'a': 'amp', 'b': 'decay'}, inplace=True)
+mc_train.rename(columns={'a': 'amp', 'b': 'decay'}, inplace=True)
+hc_train.rename(columns={'a': 'amp', 'b': 'decay'}, inplace=True)
+
+
+lc_train['decay'] = abs(lc_train['decay'])
+mc_train['decay'] = abs(mc_train['decay'])
+hc_train['decay'] = abs(hc_train['decay'])
+
+lc_train.drop(['n0', 'n1'],axis=1,inplace=True)
+mc_train.drop(['n0', 'n1'],axis=1,inplace=True)
+hc_train.drop(['n0', 'n1'],axis=1,inplace=True)
+
+
+lc_train['src'] = 'A'
+mc_train['src'] = 'B'
+hc_train['src'] = 'C'
+
+train = pd.concat([lc_train,mc_train,hc_train],ignore_index=True)
+
+We have described a system that extracts new features through a QoD prediction model which leverages the network dynamics to realize accurate and correct predictions and model estimates.
+__________________
+
+
+=IF(V3>=70,$X$30,IF(V3>=60,$X$29,IF(V3>=50,$X$28,IF(V3>=40,$X$27,$X$26))))
+
+This figure illustrates the top-level components of a computer system and the interactions among them.
+
+The CPU exchanges data with memory—to accomplish this it requires two internal registers(they are internal to the CPU):
+
+ MAR – which specifies the address in memory for the next read or write and a MBR – contains data to be written into memory or receives the data read from memory.
+
+I/O address register(I/OAR) specifies a particular I/O device.
+
+I/O buffer register(I/OBR) is used for data exchange between an I/O module and the CPU.
+
+Memory module—set of locations defined by sequentially numbered addresses. Each location contains a binary number that can be interpreted as either an instruction or data.
+
+I/O module transfer data from external devices to CPU and memory, and vice versa. It contains internal buffers for temporary storage of data.
