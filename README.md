@@ -6,6 +6,8 @@ This paper introduces a novel algorithm, Codec-aware Network Adaptation Agent (C
 
 <p align="center">
     <img src="assets/cnaa.png" alt="The role of the CNAA agent is depicted">
+    <br>
+    <em>Figure 1: The role of the CNAA agent is illustrated.</em>
 </p>
 
 
