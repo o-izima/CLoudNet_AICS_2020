@@ -4,6 +4,11 @@ This paper introduces a novel algorithm, Codec-aware Network Adaptation Agent (C
 
 # ![Figure 1](assets/cnaa.png)
 
+<div style="text-align:center">
+    <img src="assets/cnaa.pngg" alt="The role of the CNAA agent is depicted">
+</div>
+
+
 Figure 1 illustrates the role of the CNAA agent in the QoD prediction ecosystem. The
 learning function incorporates network dynamics, namely, congestion and
 codec behaviour in QoD parameter estimation and prediction. The prediction
