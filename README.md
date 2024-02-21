@@ -36,7 +36,9 @@ Rows 1 (R1) and R2 display traces showing the adaptive behavior of H.264 and H.2
     <em>Figure 4: An extract is taken from the jitter traces showing the exponential decaying nature of the jitter time series data.</em>
 </p>
 
-Figure 4 displays an excerpt from the data presented in Row 1, Figure 3. The network jitter time series data can be observed to exhibit an exponentially decaying pattern. Therefore, we assume the unit exponential decay function. The CNAA model enables summarization of jitter time series using the following feature set:
+Figure 4 displays an excerpt from the data presented in Row 1, Figure 3. The network jitter time series data can be observed to exhibit an exponentially decaying pattern. Therefore, we assume the unit exponential decay function. 
+
+The CNAA model enables summarization of jitter time series using the following feature set:
     * The peak value of the time series exponentially decaying curves
     * The decay, and 
     * The period.
