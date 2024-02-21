@@ -56,10 +56,15 @@ All three features represent the adaptation of the codec in response to differen
 |----------|----------|----------|
 | CNAA  | 4.82  | 4.07  |
 | EWMA  | 115.84 | 65.50  |
+| SMA  | 138.88  | 81.24  |
+| LR  | 1119.66 | 91.92  |
+| ARMA(2,1)  | 119.16 | 89.76  |
 
-_Table 1: The results of the model performance is listed_
-
+_Table 1: The results of the performance of the CNAA model versus some baseline machine learning models are listed_
 </div>
 
-The performa
+Table 1 shows the predictive accuracies of the CNAA model compared with some state-of-the-art machine learning models. The models' performance are evaluated using two metrics: root mean squared error (RMSE) and mean absolute error (MAE). Comparison of the Codec-Aware Network Adaptation Agent (CNAA) with baseline models reveals significant improvements. Compared to the best-performing baseline model, EWMA, and CNAA techniques demonstrate approximately 95.8% and 93.8% enhancements in terms of RMSE and MAE respectively. More analyses are described and discussed in the attached conference paper illustrating the superior performance of the CNAA model in predicting the jitter time series data and also for network state monitoring.
 
+## Conclusion
+
+In this project, a Codec-aware Network Adaptation Agent (CNAA) is proposed—an in-network agent that achieves accurate and correct predictions of Quality of Delivery (QoD) metrics, specifically jitter, in the face of congestion and adaptive codecs. The performance gain of cNAA was achieved by leveraging the information in the network. The prediction accuracy of cNAA under varying network and codec conditions is demonstrated. Additionally, improvements in prediction accuracy are realized by incorporating network dynamics, as demonstrated with some baseline models. As an online learning engine, cNAA could be deployed in a network to assist network managers in predicting network performance or for network monitoring purposes. The model estimates could also be passed off to some network device, for instance, a router, to effect a change in routes, etc.
