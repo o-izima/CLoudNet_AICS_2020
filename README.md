@@ -52,12 +52,12 @@ All three features represent the adaptation of the codec in response to differen
 
 <div align="center">
   
-| Header 1 | Header 2 | Header 3 |
+| Method | RMSE | MAE |
 |----------|----------|----------|
-| Value 1  | Value 2  | Value 3  |
-| Value 4  | Value 5  | Value 6  |
+| CNAA  | 4.82  | 4.07  |
+| EWMA  | 115.84 | 65.50  |
 
-_Table 1: Example Table_
+_Table 1: The results of the model performance is listed_
 
 </div>
 
