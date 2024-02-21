@@ -41,7 +41,8 @@ Figure 4 displays an excerpt from the data presented in Row 1, Figure 3. The net
 The CNAA model enables summarization of jitter time series using the following feature set:
 - The peak value of the time series exponentially decaying curves
 - The decay, and 
-* The period.
+- The period.
+  
 All three features represent the adaptation of the codec in response to different network conditions.
 
 |   |   |   |
