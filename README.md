@@ -43,7 +43,12 @@ The CNAA model enables summarization of jitter time series using the following f
 - The decay, and 
 - The period.
   
-All three features represent the adaptation of the codec in response to different network conditions.
+All three features represent the adaptation of the codec in response to different network conditions. The performance of the CNAA model is compared with some baseline models, namely:
+
+- Linear Regression (LR)
+- Simple Moving Average (SMA)
+- Exponentially Weighted Moving Average (EWMA)
+- Autoregressive Moving Average (ARMA)
 
 <div align="center">
   
@@ -56,4 +61,5 @@ _Table 1: Example Table_
 
 </div>
 
+The performa
 
