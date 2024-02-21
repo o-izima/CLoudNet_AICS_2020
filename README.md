@@ -45,11 +45,15 @@ The CNAA model enables summarization of jitter time series using the following f
   
 All three features represent the adaptation of the codec in response to different network conditions.
 
-|   |   |   |
-|:-:|:-:|:-:|
-| **Header 1** | **Header 2** | **Header 3** |
-| Value 1 | Value 2 | Value 3 |
-| Value 4 | Value 5 | Value 6 |
+<div align="center">
+  
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Value 1  | Value 2  | Value 3  |
+| Value 4  | Value 5  | Value 6  |
 
 _Table 1: Example Table_
+
+</div>
+
 
