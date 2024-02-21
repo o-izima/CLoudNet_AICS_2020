@@ -42,20 +42,8 @@ Figure 4 displays an excerpt from the data presented in Row 1, Figure 3. The net
     * The period.
 All three features represent the adaptation of the codec in response to different network conditions.
 
- \begin{table}[h]
-\centering
-\vspace{2mm}
-\caption{Codec-aware Network Adaptation Agent (cNAA) Versus Baseline Models; compared with the best performing baseline model, EWMA, cNAA techniques offer $\approx$ 95.8\% and 93.8\% performance improvements in terms of RMSE and MAE respectively.}\label{tab:cNAAvOthers} 
-\begin{tabular}{@{\extracolsep{4pt}}lllcc}
-\toprule   
- Method & {} & {} & RMSE & MAE \\ 
-\midrule
-\textbf{cNAA} & {} & {} & \textbf{4.82} & \textbf{4.07} \\ 
-EWMA  & {} & {} & 115.84 & 65.50\\
-SMA  & {} & {} & 138.88 & 81.24\\
-LR  & {} & {} & 119.66 & 91.92 \\
-ARMA(2,1) & {} & {} & 119.16 & 89.76 \\
-  
-\bottomrule
-\end{tabular}
-\end{table}
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Value 1  | Value 2  | Value 3  |
+| Value 4  | Value 5  | Value 6  |
+
